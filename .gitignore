@@ -1,0 +1,55 @@
+### Java ###
+# Arquivos compilados
+*.class
+
+# Pacotes (JAR/WAR/EAR)
+*.jar
+*.war
+*.ear
+
+# Arquivos temporários
+*.log
+*.ctxt
+
+# Dumps da JVM
+hs_err_pid*
+replay_pid*
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Sistema Operacional ###
+Thumbs.db
+
+# Configurações locais
+*.properties
+*.env
